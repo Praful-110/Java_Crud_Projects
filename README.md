@@ -32,45 +32,52 @@ graph TD;
 _________________________________________________________________________________________________________________________
 
 • JDBC_CRUD_1/
-  - .classpath
-  - .project
-  • .settings/
-    - org.eclipse.core.resources.prefs
-    - org.eclipse.jdt.core.prefs
-  • bin/
-    - module-info.class
-    • softronix/
-      • in/
-        - UserController.class
-        • entity/
-          - User.class
-      • UserDao/
-        - UserDao.class
-        - UserDaoImpl.class
-      • UserFactory/
-        - ConnectionFactory.class
-        - DaoFactory.class
-        - ServiceFactory.class
-      • UserService/
-        - UserService.class
-        - UserServiceImpl.class
-  • src/
-    - module-info.java
-    • softronix/
-      • in/
-        - UserController.java
-        - entity/
-          - User.java
-      • UserDao/
-        - UserDao.java
-        - UserDaoImpl.java
-      • UserFactory/
-        - ConnectionFactory.java
-        - DaoFactory.java
-        - ServiceFactory.java
-      • UserService/
-        - UserService.java
-        - UserServiceImpl.java
+
+• JDBC_CRUD_2/
+
+• JDBC_CRUD_3/
+
+• JDBC_CRUD_4/
+
+    - .classpath  
+    - .project  
+    • .settings/  
+        - org.eclipse.core.resources.prefs  
+        - org.eclipse.jdt.core.prefs  
+    • bin/ (Compiled Classes)  
+        • UserDao/  
+            - UserDao.class  
+            - UserDaoImpl.class  
+        • UserFactory/  
+            - ConnectionFactory.class  
+            - DaoFactory.class  
+            - ServiceFactory.class  
+        • UserService/  
+            - UserService.class  
+            - UserServiceImpl.class  
+        - module-info.class  
+        • softronix/in/  
+            - UserController.class  
+            • entity/  
+                - User.class  
+                
+    • src/ (Source Code)  
+        • UserDao/  
+            - UserDao.java  
+            - UserDaoImpl.java  
+        • UserFactory/  
+            - ConnectionFactory.java  
+            - DaoFactory.java  
+            - ServiceFactory.java  
+        • UserService/  
+            - UserService.java  
+            - UserServiceImpl.java  
+        - module-info.java  
+        • softronix/in/  
+            - UserController.java  
+            • entity/  
+                - User.java  
+
      
 
 
