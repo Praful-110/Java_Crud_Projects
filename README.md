@@ -31,51 +31,50 @@ graph TD;
     JDBC_CRUD_PROJECTS/
 _________________________________________________________________________________________________________________________
 
-│── src/
+• JDBC_CRUD_1/
+  - .classpath
+  - .project
+  • .settings/
+    - org.eclipse.core.resources.prefs
+    - org.eclipse.jdt.core.prefs
+  • bin/
+    - module-info.class
+    • softronix/
+      • in/
+        - UserController.class
+        • entity/
+          - User.class
+      • UserDao/
+        - UserDao.class
+        - UserDaoImpl.class
+      • UserFactory/
+        - ConnectionFactory.class
+        - DaoFactory.class
+        - ServiceFactory.class
+      • UserService/
+        - UserService.class
+        - UserServiceImpl.class
+  • src/
+    - module-info.java
+    • softronix/
+      • in/
+        - UserController.java
+        - entity/
+          - User.java
+      • UserDao/
+        - UserDao.java
+        - UserDaoImpl.java
+      • UserFactory/
+        - ConnectionFactory.java
+        - DaoFactory.java
+        - ServiceFactory.java
+      • UserService/
+        - UserService.java
+        - UserServiceImpl.java
+     
 
-│   ├── softronix/in/
-
-│   │   ├── UserController.java
-
-│   │   ├── entity/
-
-│   │   │   ├── User.java
-
-│   ├── UserDao/
-
-│   │   ├── UserDao.java
-
-│   │   ├── UserDaoImpl.java
-
-│   ├── UserFactory/
-
-│   │   ├── ConnectionFactory.java
-
-│   │   ├── DaoFactory.java
-
-│   │   ├── ServiceFactory.java
-
-│   ├── UserService/
-
-│   │   ├── UserService.java
-
-│   │   ├── UserServiceImpl.java
-
-│   ├── module-info.java
-
-│
-
-├── bin/                # Compiled .class files
-
-├── .classpath          # Eclipse classpath settings
-
-├── .project            # Eclipse project file
-
-├── .settings/          # Eclipse settings folder
+      Output:-
+      ______________________________________________________________________________________________________________________________________________
+<img width="733" alt="image" src="https://github.com/user-attachments/assets/221b275b-192a-4ce2-8d51-ff197cd8e03f" />
 
 
-
-Output:
-_____________________________________________________________________________________________________________________________
-
-<img width="533" alt="image" src="https://github.com/user-attachments/assets/da9ed85a-044c-4a02-8fa0-9b2b2d5343ac" />
