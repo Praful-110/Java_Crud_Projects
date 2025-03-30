@@ -85,5 +85,6 @@ Root Directory:
 
 Output:-
 ---------------------------------------------------------------------------------------------------------------------------------------------
-<img width="733" alt="image" src="https://github.com/user-attachments/assets/221b275b-192a-4ce2-8d51-ff197cd8e03f" />
+<img width="625" alt="image" src="https://github.com/user-attachments/assets/1e22f2d2-de05-480f-b6b4-405963227479" />
+
 
